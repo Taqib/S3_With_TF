@@ -37,4 +37,17 @@ Versioning in S3 allows you to keep multiple versions of an object in the same b
 **Key Features of S3 Bucket Versioning:
 
 --Enabled: All versions of objects are stored.
+
 --Suspended: Stops accruing new versions, but existing versions remain.
+
+**Step 1: Setting Up Terraform Configuration:
+
+#Install AWS CLI
+
+Before proceeding, ensure that the AWS CLI is installed on your local machine. Follow the instructions below based on your operating system.
+
+**Configure AWS CLI
+
+#After installing the AWS CLI, configure it with the necessary credentials. Run the following command and follow the prompts to configure it:
+
+--aws configure
