@@ -1,0 +1,3 @@
+#Creating an S3 Bucket in AWS with Terraform
+#Introduction
+In this lab, we will learn how to create an S3 bucket with versioning enabled using Terraform. Amazon S3 (Simple Storage Service) is an object storage service that offers industry-leading scalability, data availability, security, and performance. This lab will guide you through the process of creating an S3 bucket, enabling versioning, and tagging the bucket for better management and organization
