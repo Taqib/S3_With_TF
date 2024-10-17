@@ -14,8 +14,8 @@ In this lab, we will learn how to create an S3 bucket with versioning enabled us
 
 **Prerequisites:
 
-An AWS account with permissions to create S3 buckets.
-Terraform installed on your local machine.
+--An AWS account with permissions to create S3 buckets.
+--Terraform installed on your local machine.
 
 **S3 Buckets:
 
@@ -24,5 +24,17 @@ An S3 bucket is a container for storing objects (files). You can store any numbe
 **Key Components of an S3 Bucket:
 
 --Bucket Name: A unique name for the bucket.
+
 --Region: The AWS region where the bucket is created.
+
 --Access Control List (ACL): Permissions for the bucket (e.g., private, public-read).
+
+
+**S3 Bucket Versioning:
+
+Versioning in S3 allows you to keep multiple versions of an object in the same bucket. Versioning can help you recover from both unintended user actions and application failures.
+
+**Key Features of S3 Bucket Versioning:
+
+--Enabled: All versions of objects are stored.
+--Suspended: Stops accruing new versions, but existing versions remain.
